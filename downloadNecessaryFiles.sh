@@ -12,10 +12,10 @@ if [ -d "./ChaCuN" ]
 then
     echo "C'est parti on va tout set up"
     pwd
-    mkdir .github && cd .github && mkdir workflows &&   mv ../../setupCD/workflows/* . && cd ..
+    mkdir .github && cd .github && mkdir workflows &&   mv ../../setupCD/workflows/* ./ && cd ..
     echo "Repo .github/workflows créée"
 
-    mkdir .scripts && cd .scripts && mkdir run_tests && cd run_tests &&  mv ../../setupCD/run_tests/* . && cd ..
+    mkdir .scripts && cd .scripts && mkdir run_tests && cd run_tests &&  mv ../../setupCD/run_tests/* ./ && cd ..
     echo "Repo .scripts/run_tests créée"
     rm -rf ./setupCD
     echo "--------------------------"
