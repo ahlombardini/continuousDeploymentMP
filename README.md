@@ -3,16 +3,16 @@
 #Collez cette ligne dans votre terminal (il faut que vous soyez à la racine du projet).
 
 if [ -d "./ChaCuN" ] 
-then
-    clear
-    git clone https://github.com/ahlombardini/continuousDeploymentMP.git setupCD && /bin/bash ./setupCD/Setup.sh
-  
+then\n
+    \tclear
+    \tgit clone https://github.com/ahlombardini/continuousDeploymentMP.git setupCD && /bin/bash ./setupCD/Setup.sh
+  \n
 
-else
-    clear
-    echo ——————————————————
-    echo Vérifie que tu es dans le bon repo
-    echo ——————————————————
+else\n
+    \t clear
+    \t echo ——————————————————
+    \t echo Vérifie que tu es dans le bon repo
+    \t echo ——————————————————
 
 fi
 
