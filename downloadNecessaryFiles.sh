@@ -11,7 +11,7 @@ echo $CLASSPATH
 if [ -d "./ChaCuN" ]
 then
     echo "C'est parti on va tout set up"
-    pwd
+    echo $PATH
     mkdir .github && cd .github && mkdir workflows &&   mv ../../setupCD/workflows/* ./ && cd ..
     echo "Repo .github/workflows créée"
 
