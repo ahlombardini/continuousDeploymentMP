@@ -11,9 +11,9 @@ echo $CLASSPATH
 if [ -d "./ChaCuN" ]
 then
     echo "C'est parti on va tout set up"
-    mkdir .github &&  mkdir .github/workflows && cd .. &&  mv ./setupCD/workflows/* ./.github/workflows
+    mkdir .github &&  mkdir .github/workflows && cd .. &&  mv setupCD/workflows/* .github/workflows/*
     echo "Repo .github/workflows créée"
-    mkdir .scripts && mkdir .scripts/run_tests &&  mv ./setupCD/run_tests/* ./.scripts/run_tests
+    mkdir .scripts && mkdir .scripts/run_tests &&  mv setupCD/run_tests/* .scripts/run_tests/*
     echo "Repo .scripts/run_tests créée"
     rm -rf ./setupCD
     echo "--------------------------"
