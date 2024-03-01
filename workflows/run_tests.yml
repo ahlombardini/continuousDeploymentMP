@@ -14,12 +14,6 @@ jobs:
         with:
           java-version: '21'
           distribution: 'temurin'
-
-      - name: Unzip library
-        working-directory: ./.scripts/run_tests
-        run: |
-          unzip lib.zip
-
       - name: Run tests
         working-directory: ./.scripts/run_tests
         run: |
