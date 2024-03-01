@@ -17,7 +17,7 @@ then
     echo "Repo .scripts/run_tests créée"
     rm -rf setupCD
     echo "--------------------------"
-    echo "ajoute les nouveaux fichiers et push ton projet pour voir si ça a fonctionné"
+    echo "IL TE SUFFIT MAINTENANT DE JUSTE PUSH TON PROJET ET LES TESTS SE FERONT TOUS SEULS"
 
 
 else
