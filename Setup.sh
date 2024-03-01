@@ -13,9 +13,9 @@ then
     echo "C'est parti on va tout set up"
     mkdir .github && cd .github && mkdir workflows && cd ..  &&  mv setupCD/workflows/* .github/workflows
     echo "Repo .github/workflows créée"
-    mkdir .scripts && cd .scripts && mkdir run_tests && cd .. &&  mv setupCD/run_tests/* .scripts/run_tests
+    mkdir .scripts && cd .scripts && mkdir run_tests && cd .. &&  mv setupCD/scripts/* .scripts/run_tests
     echo "Repo .scripts/run_tests créée"
-    rm -rf ./setupCD
+    rm -rf setupCD
     echo "--------------------------"
     echo "ajoute les nouveaux fichiers et push ton projet pour voir si ça a fonctionné"
 
