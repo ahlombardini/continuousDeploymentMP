@@ -1,6 +1,6 @@
 # continuousDeploymentMP
 ## Permet la mise en place automatique du déploiement continu
-#Collez cette ligne dans votre terminal (il faut que vous soyez à la racine du projet).
+# Collez cette ligne dans votre terminal (il faut que vous soyez à la racine du projet).
 ```bash
 
 if [ -d "./ChaCuN" ] 
