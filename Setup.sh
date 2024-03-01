@@ -18,6 +18,9 @@ then
     rm -rf setupCD
     echo "--------------------------"
     echo "IL TE SUFFIT MAINTENANT DE JUSTE PUSH TON PROJET ET LES TESTS SE FERONT TOUS SEULS"
+    echo ——————————————————
+    echo merci d’avoir utilisé cette ressource et surtout merci à @Androz2091 pour la majeur partie du travail 
+    echo ——————————————————
 
 
 else
